@@ -1,0 +1,17 @@
+0  => Find a pair with the given sum in an array
+1  => Sort binary array in linear time
+2  => Find the maximum product of two integers in an array
+3  => Find equilibrium index of an array
+4  => Boyer-Moore Majority Vote Algorithm
+5  => Move all zeros present in an array to the end
+6  => Maximum Sum Subarray Problem (Kadane's Algorithm)
+7  => Sort an array in one swap whose two elements are swapped
+8  => Maximum Product Subset Problem
+9  => Find pairs with difference k in an array
+10 => Find minimum difference between the index of two elements present in array
+11 => Partition an array into two subarrays with the same sum
+12 => Find two numbers with maximum sum formed by array digits
+13 => Find the minimum index of a repeating element in an array
+14 => Find a pair with a minimum absolute sum in an array
+15 => Find an index of the maximum occurring element with equal probability
+16 => Add elements of two arrays into a new array
