@@ -29,7 +29,9 @@ func pair(nums []int) (int, int) {
     for low < high {
         // if absolute sum is less than minsum
         if abs(nums[low] + nums[high]) < minsum {
+            // update absolute minimum
             minsum = abs(nums[low] + nums[high])
+            // update indices
             idx[0] = low
             idx[1] = high
         }
