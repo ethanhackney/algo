@@ -21,3 +21,4 @@
 20 => Left rotate an array
 21 => Right rotate an array k times
 22 => Activity Selection Problem
+23 => Count triplets which form an inversion in an array
