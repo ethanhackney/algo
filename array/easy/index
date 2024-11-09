@@ -40,3 +40,4 @@
 39 => Find the first or last occurrence of a given number in a sorted array
 40 => Find floor and ceil of a number in a sorted integer array
 41 => Find the number of 1's in a sorted binary array
+42 => Find the frequency of each element in a sorted array with duplicates
