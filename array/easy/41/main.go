@@ -7,23 +7,33 @@ func main() {
     // sorted binary array
     nums := []int{0, 0, 0, 0, 1, 1, 1}
     // print result
-    fmt.Printf("%d\n", count(nums, 0, len(nums) - 1))
+    fmt.Printf("%d\n", count(nums))
 }
 
 // find number of 1's in a sorted binary array
-func count(nums []int, low, high int) int {
-    // if last element is 0, no 1's are present
-    if nums[high] == 0 {
-        // count of 1's is zero
-        return 0
+func count(nums []int) int {
+    // low pointer of window
+    low := 0
+    // high pointer of window
+    high := len(nums) - 1
+    // while window non-empty
+    for low <= high {
+        // get mid point
+        mid := low + ((high - low) / 2)
+        // if middle element is zero
+        if nums[mid] == 0 {
+            // move low pointer up
+            low = mid + 1
+        } else {
+            // if end of zeros
+            if mid == 0 || nums[mid - 1] == 0 {
+                // return count of 1's
+                return len(nums) - mid
+            }
+            // move high pointer down
+            high = mid - 1
+        }
     }
-    // if first element is 1, all elements are 1
-    if nums[low] == 1 {
-        // return subarray count
-        return high - low + 1
-    }
-    // get mid point
-    mid := low + ((high - low) / 2)
-    // divide array and recur for each subarray
-    return count(nums, low, mid) + count(nums, mid + 1, high)
+    // no 1's found
+    return 0
 }
