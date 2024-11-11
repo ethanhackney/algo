@@ -50,3 +50,4 @@
 49 => Connect n ropes with minimal cost
 50 => Replace each array element by its corresponding rank
 51 => Set both elements of a binary array to 0 in a single line
+52 => Determine whether a BST is skewed from its preorder traversal
