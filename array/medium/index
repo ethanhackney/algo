@@ -1,3 +1,4 @@
 0 => Check if a subarray with 0 sum exists or not
 1 => Print all subarrays with 0 sum
 2 => Find maximum length subarray having a given sum
+3 => Find the largest subarray having an equal number of 0's and 1's
