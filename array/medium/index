@@ -2,3 +2,6 @@
 1 => Print all subarrays with 0 sum
 2 => Find maximum length subarray having a given sum
 3 => Find the largest subarray having an equal number of 0's and 1's
+4 => Sort an array of 0's, 1's, and 2's (Dutch National Flag Problem)
+5 => In-place merge two sorted arrays
+6 => Merge two arrays by satisfying given constraints
