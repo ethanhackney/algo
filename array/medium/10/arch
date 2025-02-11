@@ -1,0 +1,22 @@
+naive
+=====
+for i = 0 to n:
+        prod = 0
+        for j = 0 to n:
+                if i is not j:
+                        prod *= list[j]
+        list[i] = prod
+
+map
+===
+[ 0 ] -> 120 / 1 = 120
+[ 1 ] -> 120 / 2 = 60
+[ 2 ] -> 120 / 3 = 40
+[ 3 ] -> 120 / 4 = 30
+[ 4 ] -> 120 / 5 = 24
+
+product = 120
+
+for i = 0 to n:
+        list[i] = product / list[i]
+        product /= list[i]
